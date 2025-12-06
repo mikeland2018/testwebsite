@@ -40,6 +40,10 @@ a{
   color: lightblue;
 }
 
+a:hover, a:active {
+  color:gold;
+}
+
 a.lego{
   color:tomato;
   
