@@ -1,0 +1,46 @@
+html {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+.header-1 {
+  color: lightskyblue;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  color: orange;
+  font-weight: 800;
+}
+
+p.header {
+  font-style: italic;
+}
+
+ul {
+  background-color: #555;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+strong {
+  color: yellow;
+}
+
+em {
+  text-decoration: underline;
+}
+
+a{
+  color: lightblue;
+}
+
+a.lego{
+  color:tomato;
+  
+}
