@@ -8,11 +8,6 @@ body {
   color: whitesmoke;
 }
 
-.header-1 {
-  color: lightskyblue;
-  font-weight: 600;
-}
-
 h1, h2, h3 {
   color: orange;
   font-weight: 800;
@@ -42,9 +37,4 @@ a{
 
 a:hover, a:active {
   color:gold;
-}
-
-a.lego{
-  color:tomato;
-  
 }
