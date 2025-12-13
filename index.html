@@ -11,77 +11,99 @@
 </head>
 
 <body>
-    <h1 style="color: lightskyblue;">Hello World!</h1>
+
+    <header>
+        <h1 style="color: lightskyblue;">Hello World!</h1>
+
+        <hr>
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#webpage">Learn HTML</a>
+                </li>
+                <li>
+                    <a href="#plans">My Plans</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#webpage">Learn HTML</a>
-            </li>
-            <li>
-                <a href="#plans">My Plans</a>
-            </li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <h2>Welcome!</h2>
-    <p>This is my first webpage.</p>
-
-    <img src="img/html_logo_300x300.png" alt="HTML 5 Logo" title="HTML 5 Logo">
-    <figure>
-        <figcaption>An Example of HTML code</figcaption>
-        <p>
-            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
-        </p>
-    </figure>
-
-    <h3>What am I learning?</h3>
-    <p>Im learning <abbr title="HyperText Markup Language">HTML</abbr> at the moment</p>
-
-    <hr>
-
-    <section id="webpage">
-        <h2>About me</h2>
-        <p>Im making a webpage</p>
-        <p>I'm <em>really</em> excited!</p>
-    </section>
-
-    <hr>
-
-    <section id="plans">
-        <!--TODO: Add more things to do-->
-        <h3>My plans</h3>
-        <p>Heres my to-do list:</p>
-        <ul>
-            <li>Learn HTML</li>
-            <li>Learn CSS</li>
-            <li>Make a cool webpage</li>
-            <li><strong>Be happy</strong></li>
-            <li>Visit this place:
+    <main>
+        <article id="webpage">
+            <h2>Welcome!</h2>
+            <p>This is my first webpage.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.png" alt="HTML 5 Logo" title="HTML 5 Logo">
                 <figure>
-                <address><abbr title="LEGO House">
-                        <a style="color: tomato;" href="https://maps.app.goo.gl/8AU1nNK9JiRFupT38">Ole Kirks Plads 1, 7190
-                            Billund, Denmark</a>
-                    </abbr></address>
-                <a href="https://maps.app.goo.gl/8AU1nNK9JiRFupT38">
-                    <img src="img/lego_house.jpg" alt="LEGO House" title="LEGO House" width="408" height="306" loading="lazy">
-                </a>
-                <figcaption>LEGO House in Billund, Denmark</figcaption>
+                    <figcaption>An Example of HTML code</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
                 </figure>
-            </li>
-        </ul>
-    </section>
+            </section>
+
+            <section>
+                <h3>What am I learning?</h3>
+                <p>Im learning <abbr title="HyperText Markup Language">HTML</abbr> at the moment</p>
+
+                <hr>
+
+                <h2>About me</h2>
+                <ul>
+                    <li>I'm making a webpage</li>
+                    <li>I'm <em>really</em> excited!</li>
+                </ul>
+                <aside>
+                    <details>
+                        <summary>Guess <mark>how long</mark> I code per day</summary>
+                        <p>I start at <time datetime="20:00">8 p.m.</time> and write code for <time datetime="PT2h">2hrs</time> everyday</p>
+                    </details>
+                </aside>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="plans">
+            <!--TODO: Add more things to do-->
+            <h3>My plans</h3>
+            <p>Heres my to-do list:</p>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Make a cool webpage</li>
+                <li><strong>Be happy</strong></li>
+                <li>Visit this place:
+                    <figure>
+                    <address><abbr title="LEGO House">
+                            <a style="color: tomato;" href="https://maps.app.goo.gl/8AU1nNK9JiRFupT38">Ole Kirks Plads 1, 7190
+                                Billund, Denmark</a>
+                        </abbr></address>
+                    <a href="https://maps.app.goo.gl/8AU1nNK9JiRFupT38">
+                        <img src="img/lego_house.jpg" alt="LEGO House" title="LEGO House" width="408" height="306" loading="lazy">
+                    </a>
+                    <figcaption>LEGO House in Billund, Denmark</figcaption>
+                    </figure>
+                </li>
+            </ol>
+        </article>
+    </main>
 
     <hr>
 
-    &lt;&lt;&lt; &copy; <a href="about_me/about.html">2025 Mikeland</a> &gt;&gt;&gt;
-    <p><a href="#">Back to Top</a></p>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about_me/about.html">2025 Mikeland</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
 
 </body>
-
 
 </html>
