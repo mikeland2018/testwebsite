@@ -8,20 +8,22 @@ body {
   color: whitesmoke;
 }
 
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: lightskyblue;
   font-weight: 800;
 }
 
-a{
+a {
   color: lightblue;
-}
-
-a:hover, a:active {
-  color:gold;
 }
 
 a:visited {
   color: violet;
+}
+
+a:hover,
+a:active {
+  color: gold;
 }
